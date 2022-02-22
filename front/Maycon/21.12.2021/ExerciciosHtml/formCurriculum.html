@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Curriculum</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Cadastro de Curriculum</h1>
+
+        <p>Curriculum incluido com sucesso</p>
+    </header>
+
+    <section>
+        <form action="dadosPessoais">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+
+                <div>
+                    <label for="cpf">CPF:</label>
+                    <div>
+                        <input type="text" name="cpf" id="cpf" required="required">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="nome">Nome:</label>
+                    <div>
+                        <input type="text" name="nome" id="nome">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="dataNasc">Data Nascimento:</label>
+                    <div>
+                        <input type="date" name="dataNasc" id="dataNasc" required="required">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="sexo">Sexo:</label>
+                    <fieldset>
+                        <legend>Sexo:</legend>
+                        <input type="radio" name="sexo" id="masculino" value="feminino">Masculino <br>
+                        <input type="radio" name="sexo" id="Feminino" value="feminino"> Feminino
+                    </fieldset>
+                </div>
+
+                <div>
+                    <label for="tel">Telefone:</label>
+                    <div>
+                        <input type="number" name="tel" id="tel">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="email">E-mail:</label>
+                    <div>
+                        <input type="email" name="email" id="email">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="file">Foto:</label>
+                    <div>
+                        <input type="file" name="file" id="file">
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Endereço</legend>
+
+                <div>
+                    <label for="logradouro">Logradouro</label>
+                    <div>
+                        <input type="text" name="logradouro" id="logradouro" required="required">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="numEndereco">Número:</label>
+                    <div>
+                        <input type="number" name="numEndereco" id="numEndereco" required= "required">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="bairro">Bairro:</label>
+                    <div>
+                        <input type="text" name="bairro" id="bairro" required="required">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="cidade">Cidade:</label>
+                    <div>
+                        <input type="text" name="cidade" id="cidade" required="required">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="estado">Estado:</label>
+                    <div>
+                        <select name="estado" id="estado">
+                            <option value="sp">São Paulo</option>
+                            <option value="rj">Rio de Janeiro</option>
+                            <option value="mg">Minas Gerais</option>
+                            <option value="ba">Bahia</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="cep">CEP:</label>
+                    <div>
+                        <input type="text" name="cep" id="cep" required="required">
+                    </div>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Pretensões</legend>
+
+                <div>
+                    <label for="cargo1">Cargo 1:</label>
+                    <div>
+                        <select name="cargo1" id="cargo1">
+                            <option value="admBcoDados">Administrador de Banco de Dados</option>
+                            <option value="gp.net">Gerente de Projeto .NET</option>
+                            <option value="assCozinha">Assistente de Cozinha</option>
+                            <option value="tioCreche">Tio da Creche</option>
+                            <option value="cabelereira">Cabelereira Leila</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="cargo2">Cargo 2:</label>
+                    <div>
+                        <select name="cargo2" id="cargo2">
+                            <option value="admBcoDados">Administrador de Banco de Dados</option>
+                            <option value="gp.net">Gerente de Projeto .NET</option>
+                            <option value="assCozinha">Assistente de Cozinha</option>
+                            <option value="tioCreche">Tio da Creche</option>
+                            <option value="cabelereira">Cabelereira Leila</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="cargo3">Cargo 3:</label>
+                    <div>
+                        <select name="cargo3" id="cargo3">
+                            <option value="admBcoDados">Administrador de Banco de Dados</option>
+                            <option value="gp.net">Gerente de Projeto .NET</option>
+                            <option value="assCozinha">Assistente de Cozinha</option>
+                            <option value="tioCreche">Tio da Creche</option>
+                            <option value="cabelereira">Cabelereira Leila</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="salario">Salário Pretendido:</label>
+                    <input type="number" name="salario" id="salario">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Experiência Profissional</legend>
+
+                <div>
+                    <label for="descricao">Descrição:</label>
+                    <div>
+                        <input type="text" name="descricao" id="descricao">
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+
+        <input type="button" value="Enviar">
+        <input type="reset" value="Limpar">
+    </section>
+
+
+</body>
+</html>

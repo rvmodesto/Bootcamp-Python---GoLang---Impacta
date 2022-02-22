@@ -1,0 +1,72 @@
+{
+    "vagas": [
+        {
+            "id":1,
+            "titulo": "Programador Java Pleno",
+            "tipo": "1"
+        },
+        {
+            "id": 2,
+            "titulo":"Analista Comercial",
+            "tipo": "2"
+        },
+        {
+            "id":3,
+            "titulo": "instrutor de Excel Avançado",
+            "tipo": "1"
+        },
+        {
+            "id": 4,
+            "titulo":"GP - Gerente de Projetos para .NET",
+            "tipo": "2"
+        },
+        {
+            "id":5,
+            "titulo": "Consultor de Desenvolvimento Agil",
+            "tipo": "2"
+        },
+        {
+            "id": 6,
+            "titulo":"Programador VB.Net",
+            "tipo": "1"
+        }
+    ],
+    "candidatos":[
+        {
+            "nome": "Mauricio Vargas",
+            "data": "1990-03-22",
+            "sexo": "masculino",
+            "telefone": "3254-2200",
+            "email": "mauriciovargas@impacta.com",
+            "vaga": "instrutor de Excel Avançado",
+            "id": 1
+        },
+        {
+            "nome": "Amanda Silva",
+            "data": "1990-02-01",
+            "sexo": "feminino",
+            "telefone": "3254-8300",
+            "email": "amanda@gmail.com",
+            "vaga": "Consultor de Desenvolvimento Ágil",
+            "id": 2
+        },
+        {
+            "nome": "Gustavo Ribeiro",
+            "data": "1980-06-12",
+            "sexo": "masculino",
+            "telefone": "5554-2200",
+            "email": "guribeiro@gmail.com",
+            "vaga": "Programador Java Pleno",
+            "id": 3
+        },
+        {
+            "nome": "Mônica Gonçalves",
+            "data": "1970-12-01",
+            "sexo": "feminino",
+            "telefone": "4253-8360",
+            "email": "goncalves.monica@gmail.com",
+            "vaga": "Proramador VB.Net",
+            "id": 4
+        }
+    ]
+}

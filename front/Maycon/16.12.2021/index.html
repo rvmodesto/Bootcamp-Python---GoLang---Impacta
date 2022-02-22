@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="login.aspx" name="LoginUsuario" method="post">
+
+       <h1>Informações Gerais:</h1>
+        <fieldset>
+            
+            <legend><b>Detalhes do login:</b></legend>
+            <div>
+                <label for="uname">Nome de Usuário:</label>
+                <input type="text" name="username" id="uname" placeholder="Nome e Sobrenome">
+            </div>
+
+            <div id="password" class="fild">
+                <label for="pwd">Senha de Usuário:</label>
+                <input type="password" name="password" id="pwd" placeholder="Sua senha" >
+            </div>
+        
+        </fieldset>
+        <br>
+        <fieldset>
+
+            <legend><b>Informações para cadastro:</b></legend>
+
+            <div>
+                <label for="dnasc">Data Nascimento:</label>
+                <div>
+                    <input type="date" name="dnasc" id="dnasc">
+                </div>
+            
+            </div>
+            <br>
+
+            <div>
+                <label for="tempo">Tempo de Residência</label>
+                <div>
+                    <input type="range" name="tempo" id="tempo" min="1" max="20">
+                </div>
+            </div>
+            <br>
+            
+            <div>
+                <label for="filhos">N° de Filhos</label>
+                <div>
+                    <input type="number" name="filhos" id="filhos" min="0" max="10">
+                </div>
+            </div>
+            <br>
+
+            <div>
+                <label for="cor">Cor Preferida</label>
+                <div>
+                    <input type="color" name="cor" id="cor">
+                </div>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+
+            <legend><b>Cadastro de Veículo:</b></legend>
+            
+            <!-- <h2>Validadores</h2>
+            <p>Os Validadores são usados extensivamente por componentes de FORMULÁRIOS que necessitam de tratamento especial antes de serem submetidos</p>
+            <p><b>mesmo que o FORMULÁRIO esteja sendo enviado para um recurso externo, o envio propriamente dito é bloqueado por conta dos validadores!!</b></p>
+
+            <ul>
+                <li>
+                    Required e Maxlength
+                </li>
+            </ul> -->
+
+            <div>
+                <label for="nome">Nome Completo:</label>
+                <div>
+                    <input type="text" name="nome" id="nome" required="required" maxlength="20">
+                </div>
+            </div>
+            <br>
+            
+            <div>
+                <label for="email">E-mail:</label>
+                <div>
+                    <input type="email" name="email" id="email">
+                </div>
+            </div>
+            <br>
+
+            <!-- <ul>
+                <li>
+                    O atributo <b>pattern</b> permite que o valor do campo seja fornecido em conformidade com a expessão REGULAR. No exemplo a seguir, uma placa de carro deve ser fornecida com 3 digitos alfabéticos e 4 numéricos. Se o valor fornecido não corresponder a este padrão, a validação falha
+                </li>
+            </ul> -->
+
+           <div>
+            <label for="placa">Placa de Veículo:</label>
+            <div>
+                <input id="placa" name="placa" type="text" placeholder="[a-z A-Z]{3}[0-9]{4}"/>
+            </div>
+           </div>
+           <br>
+
+            <!-- <h2>Validadores</h2>
+            <p>O atributo <b>autofocus</b> permite que o componente receba o foco assim que a páina for carregada.</p>
+            <p>O Atributo  <b>placeholder</b> já foi apresentado em exemplos anteriores. Ele permite que o controle de entrada contenha mais informações a respeito do conteúdo de entrada </p> -->
+
+        </fieldset>
+
+    </form>
+    
+    <input type="submit" value="Enviar">
+
+</body>
+</html>
